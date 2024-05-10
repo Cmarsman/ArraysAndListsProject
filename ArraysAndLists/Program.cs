@@ -50,17 +50,16 @@ namespace ArraysAndLists
              */
             foreach (var item in evens) 
             {
-                Console.WriteLine($"{item} is an even number");
+                Console.WriteLine(item);
             }
-            foreach (var item in odds) 
-            {
-                Console.WriteLine($"{item} is an odd number");
-            }
-            
 
             /* Using a for loop,
              * display the numbers in your "odds" list
              */
+            for(int i = 0; i < odds.Count; i++) 
+            {
+                Console.WriteLine(odds[i]);
+            }
         }
     }
 }
